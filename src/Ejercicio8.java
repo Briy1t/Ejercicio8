@@ -1,5 +1,5 @@
 public class Ejercicio8 {
-    static void main() {
+    public void main(String[] args) {
         int file = 10;
         int column= 10;
 
@@ -28,7 +28,7 @@ public class Ejercicio8 {
                 if (matriz[f][c] == 8) {
                     System.out.print(" 8 ");
                 } else {
-                    System.out.print(" | ");
+                    System.out.print(" 1 ");
                 }
             }
             System.out.println();
